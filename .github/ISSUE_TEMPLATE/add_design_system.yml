@@ -1,0 +1,111 @@
+name: Add a design system 🎨
+description: >-
+  Add a design system or make a request to 
+  modify one of the existing design systems.
+title: '[Add]: '
+body:
+  - type: input
+    attributes:
+      label: 'Company Name'
+      description: 'Enter the name of the company.'
+      placeholder: 'e.g., Acme Corp'
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: 'Company Logo'
+      description: 'Provide the URL for the company logo. Find logos easy from: https://clearbit.com/logo'
+      placeholder: 'e.g., https://logo.clearbit.com/acme.com'
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: 'System Name (if applicable)'
+      description: 'Enter the name of the design system, if any.'
+      placeholder: 'e.g., Polaris'
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: 'Devices the Company is Targeting (e.g., Web, iOS, Android)'
+      description: 'List the devices targeted by the company.'
+      placeholder: 'e.g., Web, iOS, Android'
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: 'Code Documentation URL (if available)'
+      description: 'Provide the URL for the code documentation, if available.'
+      placeholder: 'e.g., https://docs.acme.com'
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: 'Code Repository URL (Open Source, if applicable)'
+      description: 'Enter the URL of the code repository, if it is open source.'
+      placeholder: 'e.g., https://github.com/acme'
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: 'Figma UI Kit URL (if available)'
+      description: 'Provide the URL for the Figma UI Kit, if available.'
+      placeholder: 'e.g., https://www.figma.com/acme'
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: 'Brand Guidelines URL (if available)'
+      description: 'Enter the URL for the brand guidelines.'
+      placeholder: 'e.g., https://brand.acme.com'
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: 'Voice & Tone Page URL (if available)'
+      description: 'Provide the URL for the voice and tone page.'
+      placeholder: 'e.g., https://voice.acme.com'
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: 'Design Tokens Used (Yes/No)'
+      value: 'No'
+      description: 'Indicate whether design tokens are used (Yes/No).'
+      placeholder: 'Yes or No'
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: 'Storybook Link (if available)'
+      description: 'Provide the link to the Storybook, if available.'
+      placeholder: 'e.g., https://storybook.acme.com'
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: 'Multi-Brand Design System (Yes/No)'
+      description: 'Indicate if it is a multi-brand design system (Yes/No).'
+      placeholder: 'Yes or No'
+      value: 'No'
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: 'Additional Notes'
+      description: 'Add any additional notes or comments here.'
+      placeholder: 'Your notes...'
+    validations:
+      required: false
