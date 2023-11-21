@@ -33,7 +33,7 @@ Your contributions are what makes Design System Cookbooks a valuable resource. W
 
 There are two ways to contribute:
 1. <u>If you know how to code</u> and want to add a design system, follow the steps below and open a PR.
-2. <u>If you don't know how to code</u>, [open an issue](https://github.com/Design-System-Cookbooks/design-systems/issues/new) with the design system you want to add.
+2. <u>If you don't know how to code</u>, [open an issue](https://github.com/Design-System-Cookbooks/design-systems/issues/new/choose) with the design system you want to add.
 
 For the folks that are adding a design system through a Pull Request, follow the steps below:
 
@@ -61,4 +61,5 @@ This project was born from a desire to centralize and democratize design system 
 
 # Acknowledgements
 
-Special thanks to the UXPin team, and the contributors of the [Adele](https://github.com/UXPin/adele) project, which inspired this endeavor. Their commitment to the design community paved the way for projects like ours.
+1. Special thanks to the UXPin team, and the contributors of the [Adele](https://github.com/UXPin/adele) project, which inspired this endeavor. Their commitment to the design community paved the way for projects like ours.
+2. [Clearbit](https://clearbit.com/) for the awesome API that we use to fetch the logos of the design systems.
