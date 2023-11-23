@@ -8,7 +8,9 @@ const neo4j: CompanyData = {
   voiceAndTone:
     "https://www.neo4j.design/40a8cff71/p/57fca7-voice-and-personality",
   brandGuidelines: "https://www.neo4j.design/40a8cff71/p/46db15-brand-overview",
+  storybook: "https://storybook-components-build.appspot.com/",
   designTokens: true,
+  multiBrand: false,
 };
 
 const dropbox: CompanyData = {
@@ -54,7 +56,7 @@ const instacart: CompanyData = {
 const consumerFinancialProtectionBureau: CompanyData = {
   name: "consumer financial protection bureau",
   designTokens: undefined,
-  logo: undefined,
+  logo: "https://upload.wikimedia.org/wikipedia/commons/9/95/CFPB_Logo.png",
   figmaKit: undefined,
   brandGuidelines:
     "https://cfpb.github.io/design-manual-archive/brand-guidelines/beam-pattern.html",
@@ -437,14 +439,13 @@ const rei: CompanyData = {
 const audi: CompanyData = {
   name: "audi",
   designTokens: undefined,
-  logo: "https://logo.clearbit.com/audible.com",
+  logo: "https://logo.clearbit.com/audiusa.com",
   figmaKit:
-    "http://www.audi.com/content/dam/ci/Downloads_EN/audi-ui-kit_sketch_v1.1.sketch.zip",
+    "https://www.audi.com/ci/en/guides/user-interface/components/text.html#:~:text=access%20Figma%20workspace-,Audi%20UI%20Kit%20for%20Figma,-To%20enable%20as",
   brandGuidelines: "http://www.audi.com/ci/en/intro/brand-appearance.html",
-  voiceAndTone: undefined,
-  storybook: undefined,
-  codeDocumentation:
-    "https://github.com/audi/audi-ui/blob/master/src/button/README.md",
+  voiceAndTone: "https://www.audi.com/ci/en/intro/basics/tone-of-voice.html",
+  storybook: "https://react.ui.audi/",
+  codeDocumentation: "https://react.ui.audi/?path=/story/introduction--page",
   codeRepository: "https://github.com/audi/audi-ui",
   systemName: "audi ui",
 };
@@ -914,22 +915,21 @@ const vmware: CompanyData = {
 
 const mongodb: CompanyData = {
   name: "mongoDB",
-  designTokens: undefined,
+  designTokens: false,
   logo: "https://logo.clearbit.com/mongodb.com",
-  figmaKit: "http://mongodb.design/#/ui-design-system/resources",
+  figmaKit: "https://www.mongodb.design/foundation/figma-library-101/",
   brandGuidelines: undefined,
   voiceAndTone: undefined,
   storybook: undefined,
-  codeDocumentation:
-    "http://mongodb.design/#/ui-design-system/components/buttons",
+  codeDocumentation: "http://mongodb.design/",
   codeRepository: "https://github.com/mongodb/design",
-  systemName: "UI Design System",
+  systemName: "LeafyGreen",
 };
 
 const microsoft: CompanyData = {
   name: "microsoft",
   designTokens: undefined,
-  logo: "https://logo.clearbit.com/bing.com",
+  logo: "https://logo.clearbit.com/microsoft.com",
   figmaKit: undefined,
   brandGuidelines: undefined,
   voiceAndTone: undefined,
@@ -1031,9 +1031,9 @@ const zendesk: CompanyData = {
   logo: "https://logo.clearbit.com/zendesk.com",
   figmaKit: undefined,
   brandGuidelines: undefined,
-  voiceAndTone: undefined,
+  voiceAndTone: "https://garden.zendesk.com/content/voice-and-tone/",
   storybook: undefined,
-  codeDocumentation: undefined,
+  codeDocumentation: "https://garden.zendesk.com/components",
   codeRepository: "https://github.com/zendeskgarden",
   systemName: "Garden",
 };
@@ -1203,7 +1203,7 @@ const localtapiolaServicesLtd: CompanyData = {
 const suse: CompanyData = {
   name: "SUSE",
   designTokens: undefined,
-  logo: "https://logo.clearbit.com/sus.edu",
+  logo: "https://logo.clearbit.com/suse.com",
   figmaKit: undefined,
   brandGuidelines: undefined,
   voiceAndTone: "https://suse.eosdesignsystem.com/writing/brand-tone",
@@ -1339,7 +1339,7 @@ const twilio: CompanyData = {
   name: "twilio",
   designTokens: true,
   logo: "https://logo.clearbit.com/twilio.com",
-  figmaKit: "https://share.goabstract.com/786b3d8f-b87a-4140-af7d-eb4cdd40e8ed",
+  figmaKit: "https://www.figma.com/@twilio",
   brandGuidelines: "https://www.twilio.com/brand",
   voiceAndTone: "https://paste.twilio.design/content/voice-and-tone",
   storybook: "https://twilio-labs.github.io/paste",
@@ -1388,20 +1388,60 @@ const eliaGroup: CompanyData = {
   systemName: "Nova",
 };
 
+const elastic: CompanyData = {
+  name: "Elastic",
+  logo: "https://logo.clearbit.com/elastic.co",
+  systemName: "Elastic UI (EUI)",
+  devices: ["Web"],
+  codeDocumentation: "https://eui.elastic.co/",
+  codeRepository: "https://github.com/elastic/eui",
+  figmaKit:
+    "https://www.figma.com/community/file/964536385682658129/elastic-ui",
+  brandGuidelines: undefined,
+  voiceAndTone: undefined,
+  designTokens: true,
+  storybook: undefined,
+  multiBrand: false,
+};
+
+const kiwi: CompanyData = {
+  name: "Kiwi",
+  logo: "https://logo.clearbit.com/kiwi.com",
+  systemName: "Orbit",
+  devices: ["Web", "iOS", "Android"],
+  codeDocumentation: "https://orbit.kiwi/",
+  codeRepository: "https://github.com/kiwicom/orbit",
+  figmaKit: "https://www.figma.com/@orbitbykiwi",
+  brandGuidelines: "https://orbit.kiwi/kiwi-use/brand/brand-guidelines/",
+  voiceAndTone: "https://orbit.kiwi/kiwi-use/content/voice-and-tone/",
+  designTokens: true,
+  storybook: "https://kiwicom.github.io/orbit/",
+  multiBrand: false,
+};
+
 export const systems = [
+  atlassian,
+  ibm,
+  salesforce,
+  redHat,
   neo4j,
+  twilio,
+  elastic,
+  kiwi,
   dropbox,
+  zendesk,
+  pinterest,
+  hpEnterprise,
   royalCanin,
   instacart,
+  trello,
   consumerFinancialProtectionBureau,
-  auth0,
   priceline,
   mozillaFirefox,
   familySearch,
   appearHere,
   estonia,
   helpScout,
-  trello,
   caTechnologies,
   mixpanel,
   duolingo,
@@ -1412,7 +1452,6 @@ export const systems = [
   govuk,
   wework,
   heroku,
-  hpEnterprise,
   bbc,
   lonelyPlanet,
   cloudflare,
@@ -1428,9 +1467,6 @@ export const systems = [
   shopify,
   skyscanner,
   usajobs,
-  atlassian,
-  salesforce,
-  ibm,
   geDigital,
   quickenLoans,
   liferay,
@@ -1465,8 +1501,6 @@ export const systems = [
   workday,
   gitlab,
   sparebank1,
-  zendesk,
-  pinterest,
   alfaBank,
   digitalTransformationAgency,
   mozilla,
@@ -1484,12 +1518,10 @@ export const systems = [
   sainsbury,
   istreamplanet,
   nulogy,
-  redHat,
   builditWiproDigital,
   drawbotics,
   finastra,
-  twilio,
   sipgate,
   telefonica,
   eliaGroup,
-];
+] as CompanyData[];
