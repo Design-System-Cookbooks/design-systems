@@ -51,6 +51,7 @@ For the folks that are adding a design system through a Pull Request, follow the
 Feel free to add yourself here if you have contributed to this project 🙏
 
 * Costa Alexoglou - [Twitter](https://twitter.com/costasAlexoglou/), [GitHub](https://github.com/konsalex/)
+* Nouman Tariq - [Twitter](https://twitter.com/numantariq/), [GitHub](https://github.com/numantariq/)
 * You 🫵
 
 # Why Design System Cookbooks?

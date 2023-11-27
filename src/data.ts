@@ -1419,6 +1419,21 @@ const kiwi: CompanyData = {
   multiBrand: false,
 };
 
+const ikea: CompanyData = {
+  name: "IKEA",
+  logo: "https://logo.clearbit.com/ikea.com",
+  systemName: "Skapa",
+  devices: ["Web", "iOS", "Android"],
+  codeDocumentation: undefined,
+  codeRepository: undefined,
+  figmaKit: undefined,
+  brandGuidelines: undefined,
+  voiceAndTone: undefined,
+  designTokens: true,
+  storybook: undefined,
+  multiBrand: false,
+};
+
 export const systems = [
   atlassian,
   ibm,
@@ -1524,4 +1539,5 @@ export const systems = [
   sipgate,
   telefonica,
   eliaGroup,
+  ikea
 ] as CompanyData[];
