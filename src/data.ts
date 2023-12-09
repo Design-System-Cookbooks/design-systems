@@ -1433,11 +1433,25 @@ const ikea: CompanyData = {
   multiBrand: false,
 };
 
+const google: CompanyData = {
+  name: "Google",
+  logo: "https://logo.clearbit.com/google.com",
+  systemName: "Material Design",
+  devices: ["Web", "iOS", "Android"],
+  codeRepository: "https://github.com/material-components/material-web",
+  figmaKit: "https://material.io/blog/material-3-figma-design-kit",
+  brandGuidelines: "https://design.google/library/expressing-brand-material",
+  voiceAndTone: "https://m2.material.io/design/sound/applying-sound-to-ui.html",
+  designTokens: true,
+  storybook: undefined,
+};
+
 export const systems = [
   atlassian,
   ibm,
   salesforce,
   redHat,
+  google,
   neo4j,
   twilio,
   elastic,
