@@ -1,6 +1,10 @@
 <h1 align="center">Design System Cookbooks 📚 </h1>
 
-<img src="assets/banner.png" alt="Design System Cookbooks" align="center" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.png">
+  <img src="assets/banner-light.png" alt="Design System Cookbooks" align="center" />
+</picture>
 
 # Table of Contents
 
