@@ -1446,6 +1446,20 @@ const google: CompanyData = {
   storybook: undefined,
 };
 
+const adobe: CompanyData = {
+  name: "Adobe",
+  logo: "https://logo.clearbit.com/adobe.com",
+  systemName: "Spectrum",
+  devices: ["Web", "iOS", "Android"],
+  codeRepository: "https://github.com/adobe/react-spectrum",
+  codeDocumentation: "https://react-spectrum.adobe.com/react-spectrum/",
+  figmaKit: "https://spectrum.adobe.com/page/ui-kits/",
+  voiceAndTone: "https://spectrum.adobe.com/page/voice-and-tone/",
+  designTokens: true,
+  storybook: "https://opensource.adobe.com/spectrum-web-components/storybook/",
+  multiBrand: false,
+};
+
 export const systems = [
   atlassian,
   ibm,
@@ -1458,6 +1472,7 @@ export const systems = [
   kiwi,
   ikea,
   shopify,
+  adobe,
   zendesk,
   govuk,
   pinterest,
