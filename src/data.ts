@@ -1446,6 +1446,20 @@ const google: CompanyData = {
   storybook: undefined,
 };
 
+const decathlon: CompanyData = {
+  name: "Google",
+  logo: "https://logo.clearbit.com/decathlon.fr",
+  systemName: "Vitamin",
+  devices: ["Web", "iOS", "Android"],
+  codeRepository: "https://github.com/Decathlon/vitamin-web",
+  figmaKit: "https://www.figma.com/community/file/1116656221679083563",
+  brandGuidelines: "https://www.decathlon.design/726f8c765/p/006eb6-our-story",
+  voiceAndTone:
+    "https://www.decathlon.design/726f8c765/p/88b6f2-voice-and-tone",
+  designTokens: true,
+  storybook: "https://decathlon.github.io/vitamin-web/@vtmn/showcase-react/",
+};
+
 export const systems = [
   atlassian,
   ibm,
@@ -1553,4 +1567,5 @@ export const systems = [
   sipgate,
   telefonica,
   eliaGroup,
+  decathlon,
 ] as CompanyData[];
