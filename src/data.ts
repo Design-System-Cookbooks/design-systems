@@ -1451,7 +1451,7 @@ const scaleway: CompanyData = {
   logo: "https://logo.clearbit.com/scaleway.com",
   systemName: "Ultraviolet",
   devices: ["Web"],
-  codeRepository: "https://github.com/scaleway/scaleway-ui",
+  codeRepository: "https://github.com/scaleway/ultraviolet",
   codeDocumentation: "https://storybook.ui.scaleway.com/",
   figmaKit: undefined,
   brandGuidelines:
