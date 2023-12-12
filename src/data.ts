@@ -1446,7 +1446,22 @@ const google: CompanyData = {
   storybook: undefined,
 };
 
+const nordhealth: CompanyData = {
+  name: "Nordhealth",
+  logo: "https://logo.clearbit.com/https://nordhealth.com/",
+  systemName: "Nord",
+  devices: ["Web"],
+  codeRepository: undefined,
+  figmaKit: undefined,
+  brandGuidelines: "https://nordhealth.design/guidelines/",
+  voiceAndTone: undefined,
+  designTokens: true,
+  storybook: undefined,
+  multiBrand: false,
+};
+
 export const systems = [
+  nordhealth,
   atlassian,
   ibm,
   salesforce,
