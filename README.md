@@ -56,6 +56,7 @@ Feel free to add yourself here if you have contributed to this project 🙏
 
 * Costa Alexoglou - [Twitter](https://twitter.com/costasAlexoglou/), [GitHub](https://github.com/konsalex/)
 * Nouman Tariq - [Twitter](https://twitter.com/numantariq/), [GitHub](https://github.com/numantariq/)
+* Ondřej Konečný - [Twitter](https://twitter.com/ondrejkonec), [GitHub](https://github.com/ondrejkonec)
 * You 🫵
 
 # Why Design System Cookbooks?
