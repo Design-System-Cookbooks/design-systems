@@ -411,15 +411,16 @@ const openaq: CompanyData = {
 
 const pluralsight: CompanyData = {
   name: "pluralsight",
-  designTokens: undefined,
+  systemName: "Pando",
   logo: "https://logo.clearbit.com/pluralsight.com",
-  figmaKit: undefined,
+  figmaKit:
+    "https://www.figma.com/file/ZmH4XsZS5WnKeo28ylM5x1/PS-Design---Web-UI-Kit-%5BALPHA%5D?node-id=3052%3A61184&t=7auOLifrwgbK13Et-1",
   brandGuidelines: undefined,
   voiceAndTone: undefined,
   storybook: undefined,
-  codeDocumentation: "http://design-system.pluralsight.com/components/button/",
-  codeRepository: "https://github.com/pluralsight/design-system",
-  systemName: "pluralsight design system",
+  codeDocumentation: "https://design.pluralsight.com/",
+  codeRepository: "https://github.com/pluralsight/pando",
+  designTokens: true,
 };
 
 const rei: CompanyData = {
