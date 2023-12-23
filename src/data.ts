@@ -1447,7 +1447,7 @@ const google: CompanyData = {
 };
 
 const decathlon: CompanyData = {
-  name: "Google",
+  name: "Decathlon",
   logo: "https://logo.clearbit.com/decathlon.fr",
   systemName: "Vitamin",
   devices: ["Web", "iOS", "Android"],
