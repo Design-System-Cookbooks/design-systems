@@ -411,15 +411,16 @@ const openaq: CompanyData = {
 
 const pluralsight: CompanyData = {
   name: "pluralsight",
-  designTokens: undefined,
+  systemName: "Pando",
   logo: "https://logo.clearbit.com/pluralsight.com",
-  figmaKit: undefined,
+  figmaKit:
+    "https://www.figma.com/file/ZmH4XsZS5WnKeo28ylM5x1/PS-Design---Web-UI-Kit-%5BALPHA%5D?node-id=3052%3A61184&t=7auOLifrwgbK13Et-1",
   brandGuidelines: undefined,
   voiceAndTone: undefined,
   storybook: undefined,
-  codeDocumentation: "http://design-system.pluralsight.com/components/button/",
-  codeRepository: "https://github.com/pluralsight/design-system",
-  systemName: "pluralsight design system",
+  codeDocumentation: "https://design.pluralsight.com/",
+  codeRepository: "https://github.com/pluralsight/pando",
+  designTokens: true,
 };
 
 const rei: CompanyData = {
@@ -1463,6 +1464,33 @@ const scaleway: CompanyData = {
   multiBrand: false,
 };
 
+const adobe: CompanyData = {
+  name: "Adobe",
+  logo: "https://logo.clearbit.com/adobe.com",
+  systemName: "Spectrum",
+  devices: ["Web", "iOS", "Android"],
+  codeRepository: "https://github.com/adobe/react-spectrum",
+  codeDocumentation: "https://react-spectrum.adobe.com/react-spectrum/",
+  figmaKit: "https://spectrum.adobe.com/page/ui-kits/",
+  voiceAndTone: "https://spectrum.adobe.com/page/voice-and-tone/",
+  designTokens: true,
+  storybook: "https://opensource.adobe.com/spectrum-web-components/storybook/"
+};
+
+const decathlon: CompanyData = {
+  name: "Decathlon",
+  logo: "https://logo.clearbit.com/decathlon.fr",
+  systemName: "Vitamin",
+  devices: ["Web", "iOS", "Android"],
+  codeRepository: "https://github.com/Decathlon/vitamin-web",
+  figmaKit: "https://www.figma.com/community/file/1116656221679083563",
+  brandGuidelines: "https://www.decathlon.design/726f8c765/p/006eb6-our-story",
+  voiceAndTone:
+    "https://www.decathlon.design/726f8c765/p/88b6f2-voice-and-tone",
+  designTokens: true,
+  storybook: "https://decathlon.github.io/vitamin-web/@vtmn/showcase-react/"
+};
+
 const nordhealth: CompanyData = {
   name: "Nordhealth",
   logo: "https://logo.clearbit.com/https://nordhealth.com/",
@@ -1490,6 +1518,7 @@ export const systems = [
   kiwi,
   ikea,
   shopify,
+  adobe,
   zendesk,
   govuk,
   pinterest,
@@ -1586,4 +1615,5 @@ export const systems = [
   sipgate,
   telefonica,
   eliaGroup,
+  decathlon,
 ] as CompanyData[];
