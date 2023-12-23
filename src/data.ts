@@ -1447,6 +1447,23 @@ const google: CompanyData = {
   storybook: undefined,
 };
 
+const scaleway: CompanyData = {
+  name: "Scaleway",
+  logo: "https://logo.clearbit.com/scaleway.com",
+  systemName: "Ultraviolet",
+  devices: ["Web"],
+  codeRepository: "https://github.com/scaleway/ultraviolet",
+  codeDocumentation: "https://storybook.ui.scaleway.com/",
+  figmaKit: undefined,
+  brandGuidelines:
+    "https://ultraviolet.scaleway.com/6dd9b5c45/p/94fd83-scaleway-logo",
+  voiceAndTone:
+    "https://ultraviolet.scaleway.com/6dd9b5c45/p/86a7c1-general-guidelines/b/048a07",
+  storybook: "https://storybook.ui.scaleway.com/",
+  designTokens: true,
+  multiBrand: false,
+};
+
 const adobe: CompanyData = {
   name: "Adobe",
   logo: "https://logo.clearbit.com/adobe.com",
@@ -1516,6 +1533,7 @@ export const systems = [
   audi,
   pluralsight,
   dropbox,
+  scaleway,
   consumerFinancialProtectionBureau,
   priceline,
   mozillaFirefox,
