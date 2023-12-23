@@ -411,15 +411,16 @@ const openaq: CompanyData = {
 
 const pluralsight: CompanyData = {
   name: "pluralsight",
-  designTokens: undefined,
+  systemName: "Pando",
   logo: "https://logo.clearbit.com/pluralsight.com",
-  figmaKit: undefined,
+  figmaKit:
+    "https://www.figma.com/file/ZmH4XsZS5WnKeo28ylM5x1/PS-Design---Web-UI-Kit-%5BALPHA%5D?node-id=3052%3A61184&t=7auOLifrwgbK13Et-1",
   brandGuidelines: undefined,
   voiceAndTone: undefined,
   storybook: undefined,
-  codeDocumentation: "http://design-system.pluralsight.com/components/button/",
-  codeRepository: "https://github.com/pluralsight/design-system",
-  systemName: "pluralsight design system",
+  codeDocumentation: "https://design.pluralsight.com/",
+  codeRepository: "https://github.com/pluralsight/pando",
+  designTokens: true,
 };
 
 const rei: CompanyData = {
@@ -1457,10 +1458,25 @@ const decathlon: CompanyData = {
   voiceAndTone:
     "https://www.decathlon.design/726f8c765/p/88b6f2-voice-and-tone",
   designTokens: true,
-  storybook: "https://decathlon.github.io/vitamin-web/@vtmn/showcase-react/",
+  storybook: "https://decathlon.github.io/vitamin-web/@vtmn/showcase-react/"
+};
+
+const nordhealth: CompanyData = {
+  name: "Nordhealth",
+  logo: "https://logo.clearbit.com/https://nordhealth.com/",
+  systemName: "Nord",
+  devices: ["Web"],
+  codeRepository: undefined,
+  figmaKit: undefined,
+  brandGuidelines: "https://nordhealth.design/guidelines/",
+  voiceAndTone: undefined,
+  designTokens: true,
+  storybook: undefined,
+  multiBrand: false,
 };
 
 export const systems = [
+  nordhealth,
   atlassian,
   ibm,
   salesforce,
