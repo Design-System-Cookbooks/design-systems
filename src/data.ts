@@ -1505,7 +1505,22 @@ const nordhealth: CompanyData = {
   multiBrand: false,
 };
 
+const chakraUi: CompanyData = {
+  name: "Chakra UI",
+  logo: "https://avatars.githubusercontent.com/u/54212428?s=48&v=4",
+  systemName: "Chakra",
+  devices: ["Web"],
+  codeRepository: "https://github.com/chakra-ui/chakra-ui",
+  figmaKit: "https://www.figma.com/community/file/971408767069651759",
+  brandGuidelines: "https://chakra-ui.com/getting-started/principles",
+  voiceAndTone: undefined,
+  designTokens: undefined,
+  storybook: "https://chakra-ui.netlify.app/",
+  multiBrand: undefined,
+};
+
 export const systems = [
+  chakraUi,
   nordhealth,
   atlassian,
   ibm,
