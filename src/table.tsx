@@ -2,6 +2,7 @@ import React from "react";
 import { systems } from "./data";
 import { createRoot } from "react-dom/client";
 import { tw } from "twind";
+import "@mantine/core/styles.css";
 
 import { CompanyData } from "./type";
 import {
@@ -10,6 +11,7 @@ import {
   type MRT_ColumnDef,
   MRT_Cell,
 } from "mantine-react-table";
+import { MantineProvider } from "@mantine/core";
 
 const domNode = document.getElementById("app") as HTMLElement;
 const root = createRoot(domNode);
@@ -118,15 +120,20 @@ const DemoTable = () => {
       },
     },
     mantineTableProps: {
-      sx: {
-        tableLayout: "fixed",
+      className: "table-fixed",
+      styles: {
+        table: {
+          tableLayout: "fixed",
+        },
       },
     },
   });
 
   return (
     <div className={tw("p-8")}>
-      <MantineReactTable table={table} />
+      <MantineProvider>
+        <MantineReactTable table={table} />
+      </MantineProvider>
     </div>
   );
 };
