@@ -533,7 +533,7 @@ const atlassian: CompanyData = {
   voiceAndTone:
     "https://atlassian.design/guidelines/product/foundations/writing-style",
   storybook: "https://atlaskit.atlassian.com/packages",
-  codeDocumentation: "https://atlaskit.atlassian.com",
+  codeDocumentation: "https://atlassian.design/components",
   codeRepository: "https://bitbucket.org/atlassian/atlaskit",
   systemName: "atlassian design guidelines",
 };
@@ -1474,7 +1474,7 @@ const adobe: CompanyData = {
   figmaKit: "https://spectrum.adobe.com/page/ui-kits/",
   voiceAndTone: "https://spectrum.adobe.com/page/voice-and-tone/",
   designTokens: true,
-  storybook: "https://opensource.adobe.com/spectrum-web-components/storybook/"
+  storybook: "https://opensource.adobe.com/spectrum-web-components/storybook/",
 };
 
 const decathlon: CompanyData = {
@@ -1488,7 +1488,7 @@ const decathlon: CompanyData = {
   voiceAndTone:
     "https://www.decathlon.design/726f8c765/p/88b6f2-voice-and-tone",
   designTokens: true,
-  storybook: "https://decathlon.github.io/vitamin-web/@vtmn/showcase-react/"
+  storybook: "https://decathlon.github.io/vitamin-web/@vtmn/showcase-react/",
 };
 
 const nordhealth: CompanyData = {
@@ -1519,7 +1519,55 @@ const chakraUi: CompanyData = {
   multiBrand: undefined,
 };
 
+const vercel: CompanyData = {
+  name: "Vercel",
+  logo: "https://logo.clearbit.com/vercel.com",
+  systemName: "Geist",
+  devices: ["Web"],
+  codeDocumentation: "https://vercel.com/design/introduction",
+  codeRepository: "https://github.com/vercel/vercel",
+  figmaKit: null,
+  brandGuidelines: "https://vercel.com/design/brands",
+  voiceAndTone: null,
+  designTokens: false,
+  storybook: null,
+  multiBrand: false,
+};
+
+const wix = {
+  name: "Wix",
+  logo: "https://logo.clearbit.com/wix.com",
+  systemName: "Wix Design System",
+  devices: ["Web"],
+  codeDocumentation: "https://www.docs.wixdesignsystem.com/",
+  codeRepository: null,
+  figmaKit: null,
+  brandGuidelines: "https://www.wix.com/about/design-assets",
+  voiceAndTone: null,
+  designTokens: false,
+  storybook: "https://www.wix-style-react.com/storybook/",
+  multiBrand: false,
+};
+
+const clickhouse: CompanyData = {
+  name: "ClickHouse",
+  logo: "https://logo.clearbit.com/clickhouse.com",
+  systemName: "ClickHouse Design System",
+  devices: ["Web"],
+  codeDocumentation: "https://click-ui.vercel.app/",
+  codeRepository: "https://github.com/ClickHouse/click-ui",
+  figmaKit: null,
+  brandGuidelines: null,
+  voiceAndTone: null,
+  designTokens: false,
+  storybook: "https://click-ui.vercel.app/",
+  multiBrand: false,
+};
+
 export const systems = [
+  clickhouse,
+  wix,
+  vercel,
   chakraUi,
   nordhealth,
   atlassian,
