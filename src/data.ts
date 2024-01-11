@@ -1534,14 +1534,14 @@ const vercel: CompanyData = {
   multiBrand: false,
 };
 
-const wix = {
+const wix: CompanyData = {
   name: "Wix",
   logo: "https://logo.clearbit.com/wix.com",
   systemName: "Wix Design System",
   devices: ["Web"],
   codeDocumentation: "https://www.docs.wixdesignsystem.com/",
   codeRepository: null,
-  figmaKit: null,
+  figmaKit: undefined,
   brandGuidelines: "https://www.wix.com/about/design-assets",
   voiceAndTone: null,
   designTokens: false,
