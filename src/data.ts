@@ -1564,6 +1564,23 @@ const clickhouse: CompanyData = {
   multiBrand: false,
 };
 
+const georgeLabs: CompanyData = {
+  name: "George-Labs GmbH",
+  logo: "https://logo.clearbit.com/george-labs.com",
+  systemName: "George Design System",
+  devices: ["Web", "iOS", "Android"],
+  codeDocumentation: "https://designsystem.george-labs.com/",
+  codeRepository: undefined,
+  figmaKit: undefined,
+  brandGuidelines: undefined,
+  voiceAndTone:
+    "https://designsystem.george-labs.com/main/guides/content/introduction/",
+  designTokens: true,
+  storybook:
+    "https://designsystem.george-labs.com/storybook/?path=/story/about-changelog--page",
+  multiBrand: false,
+};
+
 export const systems = [
   clickhouse,
   wix,
@@ -1590,6 +1607,7 @@ export const systems = [
   github,
   hpEnterprise,
   mongodb,
+  georgeLabs,
   royalCanin,
   instacart,
   trello,
