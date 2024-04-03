@@ -1582,7 +1582,7 @@ const georgeLabs: CompanyData = {
 };
 
 const kajabi: CompanyData = {
-  name: "Sage",
+  name: "Kajabi",
   logo: "https://logo.clearbit.com/sage.kajabi.com",
   systemName: "Sage Design System",
   devices: ["Web"],
