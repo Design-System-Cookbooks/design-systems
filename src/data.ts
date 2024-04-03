@@ -1581,6 +1581,21 @@ const georgeLabs: CompanyData = {
   multiBrand: false,
 };
 
+const kajabi: CompanyData = {
+  name: "Sage",
+  logo: "https://logo.clearbit.com/sage.kajabi.com",
+  systemName: "Sage Design System",
+  devices: ["Web"],
+  codeDocumentation: "https://sage.kajabi.com/",
+  codeRepository: undefined,
+  figmaKit: undefined,
+  brandGuidelines: undefined,
+  voiceAndTone: undefined,
+  designTokens: true,
+  storybook: undefined,
+  multiBrand: false,
+};
+
 export const systems = [
   clickhouse,
   wix,
@@ -1697,4 +1712,5 @@ export const systems = [
   telefonica,
   eliaGroup,
   decathlon,
+  kajabi,
 ] as CompanyData[];
