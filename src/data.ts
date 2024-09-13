@@ -1596,9 +1596,25 @@ const kajabi: CompanyData = {
   multiBrand: false,
 };
 
+const sap: CompanyData = {
+  name: "SAP",
+  logo: "https://logo.clearbit.com/sage.kajabi.com",
+  systemName: "SAP Fiori",
+  devices: ["Web", "iOS", "Android", "Watch"],
+  codeDocumentation: undefined,
+  codeRepository: undefined,
+  figmaKit: "https://www.figma.com/@sap",
+  brandGuidelines: undefined,
+  voiceAndTone: undefined,
+  designTokens: true,
+  storybook: undefined,
+  multiBrand: false,
+};
+
 export const systems = [
   clickhouse,
   wix,
+  sap,
   vercel,
   chakraUi,
   nordhealth,
