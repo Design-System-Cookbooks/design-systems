@@ -1598,7 +1598,7 @@ const kajabi: CompanyData = {
 
 const sap: CompanyData = {
   name: "SAP",
-  logo: "https://logo.clearbit.com/sage.kajabi.com",
+  logo: "https://logo.clearbit.com/sap.com",
   systemName: "SAP Fiori",
   devices: ["Web", "iOS", "Android", "Watch"],
   codeDocumentation: undefined,
