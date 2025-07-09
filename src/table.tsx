@@ -49,7 +49,7 @@ const columns: MRT_ColumnDef<CompanyData>[] = [
             <img
               alt="logo"
               className={tw(
-                "w-8 h-8 rounded-full object-contain shadow border border-gray-50"
+                "w-8 h-8 rounded-full object-contain shadow-sm border border-gray-50"
               )}
               src={value}
             />
