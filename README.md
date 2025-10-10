@@ -19,6 +19,7 @@
 
 ![Contributors Welcome](https://img.shields.io/badge/Contributors-welcome-brightgreen.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Pairing with Hopp](https://gethopp.app/git/hopp-shield.svg?ref=hopp-repo)](https://gethopp.app)
 
 
 Welcome to **Design System Cookbooks**, an open-source database of public design systems. This project caters to designers, product managers, and engineers, providing a platform to find and share valuable design resources.
