@@ -2160,6 +2160,20 @@ const workos: CompanyData = {
   devices: ["Web"],
 };
 
+const eleven: CompanyData = {
+  name: "ElevenLabs UI",
+  designTokens: false,
+  logo: "https://logo.clearbit.com/elevenlabs.io/",
+  figmaKit: undefined,
+  brandGuidelines: undefined,
+  voiceAndTone: undefined,
+  storybook: undefined,
+  codeDocumentation: "https://ui.elevenlabs.io/docs/components",
+  codeRepository: "https://github.com/elevenlabs/ui",
+  systemName: "ElevenLabs UI",
+  devices: ["Web"],
+};
+
 export const systems = [
   clickhouse,
   wix,
@@ -2325,4 +2339,5 @@ export const systems = [
   wise,
   wonderflow,
   workos,
+  eleven,
 ] as CompanyData[];
