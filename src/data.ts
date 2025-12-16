@@ -2174,6 +2174,51 @@ const eleven: CompanyData = {
   devices: ["Web"],
 };
 
+const newYorkState: CompanyData = {
+  name: "New York State",
+  designTokens: true,
+  logo: "https://designsystem.ny.gov/assets/img/nysds_logo_long.svg",
+  figmaKit: "https://www.figma.com/community/file/1574803287825265318",
+  brandGuidelines: undefined,
+  voiceAndTone: undefined,
+  storybook: "https://its-hcd.github.io/nysds/",
+  codeDocumentation: "http://designsystem.ny.gov",
+  codeRepository: "https://github.com/ITS-HCD/nysds/",
+  systemName: "New York State Design System",
+  devices: ["Web"],
+  multiBrand: true,
+};
+
+const pandaDoc: CompanyData = {
+  name: "PandaDoc",
+  designTokens: true,
+  logo: "https://dlh49gjxx49i3.cloudfront.net/ds-cookbooks/pandadoc.png",
+  figmaKit: undefined,
+  brandGuidelines: "https://design.pandadoc.com/",
+  voiceAndTone:
+    "https://thesis.pandadoc.com/5e8257e54/v/0/p/879df3-ux-copywriting-at-pandadoc",
+  storybook:
+    "https://uikit.dev.sealdocs-static.com/?path=/story/welcome--welcome",
+  codeDocumentation: "https://thesis.pandadoc.com/",
+  codeRepository: undefined,
+  systemName: "Thesis",
+  devices: ["Web"],
+};
+
+const itzBund: CompanyData = {
+  name: "ITZBund",
+  designTokens: true,
+  logo: "https://public-ui.github.io/assets/logo.kolibri.png",
+  figmaKit: undefined,
+  brandGuidelines: undefined,
+  voiceAndTone: undefined,
+  storybook: undefined,
+  codeDocumentation: "https://public-ui.github.io/",
+  codeRepository: "https://github.com/public-ui/kolibri",
+  systemName: "KoliBri",
+  devices: ["Web"],
+};
+
 export const systems = [
   clickhouse,
   wix,
@@ -2333,4 +2378,7 @@ export const systems = [
   wonderflow,
   workos,
   eleven,
+  newYorkState,
+  pandaDoc,
+  itzBund,
 ] as CompanyData[];
