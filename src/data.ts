@@ -107,7 +107,7 @@ const familySearch: CompanyData = {
   voiceAndTone: undefined,
   storybook: undefined,
   codeDocumentation: undefined,
-  codeRepository: "https://github.com/fs-webdev/fs-styles",
+  codeRepository: undefined,
   systemName: "frontier",
 };
 
@@ -129,8 +129,8 @@ const estonia: CompanyData = {
   designTokens: undefined,
   logo: "https://logo.clearbit.com/vm.ee",
   figmaKit: undefined,
-  brandGuidelines: "https://brand.estonia.ee/guidelines/?lang=en",
-  voiceAndTone: "https://brand.estonia.ee/guidelines/?lang=en",
+  brandGuidelines: "https://brand.estonia.ee/brand-estonia-estonia/?lang=en",
+  voiceAndTone: "https://brand.estonia.ee/brand-estonia-estonia/?lang=en",
   storybook: undefined,
   codeDocumentation: undefined,
   codeRepository: undefined,
@@ -154,7 +154,7 @@ const trello: CompanyData = {
   name: "trello",
   designTokens: undefined,
   logo: "https://logo.clearbit.com/trello.com",
-  figmaKit: "https://design.trello.com/assets/Trello_Mockup_Sketch_File.zip",
+  figmaKit: undefined,
   brandGuidelines: "https://design.trello.com/style/brand",
   voiceAndTone: undefined,
   storybook: undefined,
@@ -225,7 +225,7 @@ const buzzfeed: CompanyData = {
   brandGuidelines: undefined,
   voiceAndTone: undefined,
   storybook: undefined,
-  codeDocumentation: "http://solid.buzzfeed.com/buttons.html",
+  codeDocumentation: undefined,
   codeRepository: "https://github.com/buzzfeed/solid",
   systemName: "solid",
 };
@@ -238,9 +238,8 @@ const bringPosten: CompanyData = {
   brandGuidelines: undefined,
   voiceAndTone: undefined,
   storybook: undefined,
-  codeDocumentation:
-    "https://github.com/bring/hedwig/blob/master/src/shared/components/button/Buttons.md",
-  codeRepository: "https://github.com/bring/hedwig",
+  codeDocumentation: "https://bring.github.io/hedwig-design-system/",
+  codeRepository: "https://github.com/bring/hedwig-design-system",
   systemName: "hedwig",
 };
 
@@ -332,9 +331,8 @@ const lonelyPlanet: CompanyData = {
   brandGuidelines: undefined,
   voiceAndTone: undefined,
   storybook: undefined,
-  codeDocumentation:
-    "http://rizzo.lonelyplanet.com/styleguide/ui-components/cards",
-  codeRepository: "https://github.com/lonelyplanet/rizzo",
+  codeDocumentation: undefined,
+  codeRepository: undefined,
   systemName: "rizzo",
 };
 
@@ -418,7 +416,7 @@ const pluralsight: CompanyData = {
   storybook:
     "https://pando-storybook.pluralsight.com/storybook/?path=/docs/components-accordion--docs",
   codeDocumentation: "https://design.pluralsight.com/",
-  codeRepository: "https://github.com/pluralsight/pando",
+  codeRepository: undefined,
   designTokens: true,
 };
 
@@ -458,7 +456,7 @@ const coop: CompanyData = {
     "https://github.com/coopdigital/coop-design-assets/raw/master//sketch%20files/CoopStyle.sketch",
   brandGuidelines:
     "https://github.com/coopdigital/coop-design-assets/raw/master/brand/WR_B_024-Brand%20Guidelines_16_9Low.pdf",
-  voiceAndTone: "https://coop-design-manual.herokuapp.com/content.html",
+  voiceAndTone: undefined,
   storybook: undefined,
   codeDocumentation:
     "https://github.com/coopdigital/coop-frontend-toolkit/blob/master/README.md",
@@ -504,9 +502,9 @@ const skyscanner: CompanyData = {
   brandGuidelines: undefined,
   voiceAndTone: undefined,
   storybook: undefined,
-  codeDocumentation: "https://backpack.github.io/components/form?platform=web",
-  codeRepository: "https://github.com/backpack/backpack.github.io",
-  systemName: "backpack",
+  codeDocumentation: "https://www.skyscanner.design/",
+  codeRepository: "https://github.com/Skyscanner/backpack",
+  systemName: "Backpack",
 };
 
 const usajobs: CompanyData = {
@@ -630,8 +628,8 @@ const altinn: CompanyData = {
   brandGuidelines: undefined,
   voiceAndTone: "https://altinn.github.io/designsystem-styleguide/",
   storybook: undefined,
-  codeDocumentation: "https://altinn.github.io/designsystem-styleguide/",
-  codeRepository: "https://github.com/Altinn/DesignSystem",
+  codeDocumentation: undefined,
+  codeRepository: "https://github.com/Altinn/altinn-design-system",
   systemName: "Altinn Designsystem",
 };
 
@@ -655,7 +653,7 @@ const acl: CompanyData = {
   logo: "https://logo.clearbit.com/aclu.org",
   figmaKit: undefined,
   brandGuidelines: undefined,
-  voiceAndTone: "http://design.acl.com/page/Writing-Principles#tone",
+  voiceAndTone: undefined,
   storybook: undefined,
   codeDocumentation: undefined,
   codeRepository: undefined,
@@ -683,9 +681,8 @@ const financialTimes: CompanyData = {
   brandGuidelines: undefined,
   voiceAndTone: undefined,
   storybook: undefined,
-  codeDocumentation:
-    "https://github.com/Financial-Times/o-tabs/blob/master/README.md",
-  codeRepository: "https://github.com/Financial-Times/ft-origami",
+  codeDocumentation: "https://origami.ft.com/",
+  codeRepository: "https://github.com/Financial-Times/origami",
   systemName: "Origami",
 };
 
@@ -759,11 +756,10 @@ const meetup: CompanyData = {
   designTokens: undefined,
   logo: "https://logo.clearbit.com/meetup.com",
   figmaKit: undefined,
-  brandGuidelines: "https://meetup.github.io/swarm-design-system/brand/",
-  voiceAndTone:
-    "https://meetup.github.io/swarm-design-system/brand/brandvoice/",
-  storybook: "https://meetup.github.io/meetup-web-components/",
-  codeDocumentation: "https://meetup.github.io/meetup-web-components/",
+  brandGuidelines: undefined,
+  voiceAndTone: undefined,
+  storybook: undefined,
+  codeDocumentation: "https://swarm-docs.vercel.app/",
   codeRepository: "https://github.com/meetup/swarm-design-system",
   systemName: "Swarm",
 };
@@ -888,13 +884,12 @@ const vmware: CompanyData = {
   name: "VMware",
   designTokens: undefined,
   logo: "https://logo.clearbit.com/vmware.com",
-  figmaKit:
-    "https://vmware.github.io/clarity/documentation/v0.11/get-started#designResources",
+  figmaKit: undefined,
   brandGuidelines: undefined,
   voiceAndTone: undefined,
   storybook: undefined,
-  codeDocumentation: "https://vmware.github.io/clarity/documentation",
-  codeRepository: "https://github.com/vmware/clarity",
+  codeDocumentation: "https://clarity.design/",
+  codeRepository: "https://github.com/vmware-clarity/core",
   systemName: "Clarity",
 };
 
@@ -957,7 +952,7 @@ const hudl: CompanyData = {
   name: "hudl",
   designTokens: undefined,
   logo: "https://logo.clearbit.com/hudl.com",
-  figmaKit: "http://uniform.hudl.com/resources/design-assets/sketch-library",
+  figmaKit: undefined,
   brandGuidelines: undefined,
   voiceAndTone: undefined,
   storybook: undefined,
@@ -1000,8 +995,8 @@ const sparebank1: CompanyData = {
   designTokens: undefined,
   logo: "https://logo.clearbit.com/sparebank1.no",
   figmaKit: undefined,
-  brandGuidelines: "https://design.sparebank1.no/stil-og-tone.html",
-  voiceAndTone: "https://design.sparebank1.no/stil-og-tone.html#stil-og-tone",
+  brandGuidelines: undefined,
+  voiceAndTone: undefined,
   storybook: undefined,
   codeDocumentation:
     "https://github.com/SpareBank1/designsystem/blob/develop/README.md",
@@ -1175,7 +1170,7 @@ const localtapiolaServicesLtd: CompanyData = {
   name: "LocalTapiola Services Ltd",
   designTokens: true,
   logo: undefined,
-  figmaKit: "https://www.duetds.com/abstract/",
+  figmaKit: undefined,
   brandGuidelines: "https://www.duetds.com/resources/",
   voiceAndTone: undefined,
   storybook: undefined,
@@ -1299,8 +1294,7 @@ const drawbotics: CompanyData = {
   brandGuidelines: undefined,
   voiceAndTone: undefined,
   storybook: undefined,
-  codeDocumentation:
-    "https://drawbotics.github.io/drylus/coding-guidelines/introduction",
+  codeDocumentation: undefined,
   codeRepository: undefined,
   systemName: "drylus",
 };
@@ -1309,12 +1303,12 @@ const finastra: CompanyData = {
   name: "finastra",
   designTokens: undefined,
   logo: "https://logo.clearbit.com/finastra.com",
-  figmaKit: "https://github.com/fusionfabric/finastra-design-kit",
+  figmaKit: "https://github.com/Finastra/fds-design",
   brandGuidelines: "https://design.fusionfabric.cloud/foundations",
   voiceAndTone: undefined,
   storybook: undefined,
   codeDocumentation: "https://design.fusionfabric.cloud/get-started/developers",
-  codeRepository: "https://github.com/fusionfabric/finastra-design-system",
+  codeRepository: "https://github.com/Finastra/finastra-design-system",
 };
 
 const twilio: CompanyData = {
@@ -1494,7 +1488,7 @@ const chakraUi: CompanyData = {
   devices: ["Web"],
   codeRepository: "https://github.com/chakra-ui/chakra-ui",
   figmaKit: "https://www.figma.com/community/file/971408767069651759",
-  brandGuidelines: "https://chakra-ui.com/getting-started/principles",
+  brandGuidelines: undefined,
   voiceAndTone: undefined,
   designTokens: undefined,
   storybook: "https://chakra-ui.netlify.app/",
@@ -1548,15 +1542,13 @@ const georgeLabs: CompanyData = {
   name: "George-Labs GmbH",
   logo: "https://logo.clearbit.com/george-labs.com",
   devices: ["Web", "iOS", "Android"],
-  codeDocumentation: "https://designsystem.george-labs.com/",
+  codeDocumentation: undefined,
   codeRepository: undefined,
   figmaKit: undefined,
   brandGuidelines: undefined,
-  voiceAndTone:
-    "https://designsystem.george-labs.com/main/guides/content/introduction/",
+  voiceAndTone: undefined,
   designTokens: true,
-  storybook:
-    "https://designsystem.george-labs.com/storybook/?path=/story/about-changelog--page",
+  storybook: undefined,
   multiBrand: false,
 };
 
@@ -1627,7 +1619,7 @@ const uber: CompanyData = {
   systemName: "Base",
   devices: ["Web"],
   codeDocumentation: "https://base.uber.com/",
-  codeRepository: "https://github.com/uber/base-design-system",
+  codeRepository: "https://github.com/uber/baseweb",
   figmaKit: undefined,
   brandGuidelines: undefined,
   voiceAndTone: undefined,
@@ -1713,7 +1705,7 @@ const basis: CompanyData = {
   logo: "https://logo.clearbit.com/basis.com",
   figmaKit: undefined,
   brandGuidelines: undefined,
-  voiceAndTone: "https://design.basis.com/voice-and-tone",
+  voiceAndTone: undefined,
   storybook: "https://storybook.basis.net/",
   codeDocumentation: "https://design.basis.com/",
   codeRepository: "https://github.com/moroshko/basis",
@@ -1828,7 +1820,7 @@ const generalElectric: CompanyData = {
   brandGuidelines: undefined,
   voiceAndTone: undefined,
   storybook: "https://storybook.ethosdesignsystem.com/",
-  codeDocumentation: "https://www.ge.com/digital/design-system",
+  codeDocumentation: "https://ethosdesignsystem.com/",
   codeRepository: undefined,
   systemName: "Ethos",
 };
