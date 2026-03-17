@@ -1921,14 +1921,15 @@ const orange: CompanyData = {
   name: "Orange",
   designTokens: true,
   logo: "https://logo.clearbit.com/orange.com",
-  figmaKit: "https://system.design.orange.com/0c1af118d/p/395b5b-web-ui-kit",
+  figmaKit: "https://www.figma.com/files/1152163066756235821/workspace/1309786122098727344/directory/teams",
   brandGuidelines: "https://brand.orange.com/en",
   voiceAndTone: undefined,
   storybook: undefined,
-  codeDocumentation: "https://system.design.orange.com/",
-  codeRepository: undefined,
-  devices: ["Web", "iOS", "Android"],
-  systemName: "Design System",
+  codeDocumentation: "https://unified-design-system.orange.com",
+  codeRepository: "https://github.com/Orange-OpenSource?q=ouds-&type=all&language=&sort=",
+  devices: ["Web", "Android", "iOS", "iPadOS", "macOS", "visionOS", "tvOS", "watchOS"],
+  systemName: "Orange Unified Design System",
+  multiBrand: true,
 };
 
 const porsche: CompanyData = {
