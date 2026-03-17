@@ -1,4 +1,17 @@
-const Devices = ["Web", "iOS", "Android", "TV", "Car", "Watch", "VR"] as const;
+const Devices = [
+  "Web",
+  "iOS",
+  "Android",
+  "TV",
+  "Car",
+  "Watch",
+  "VR",
+  "iPadOS",
+  "macOS",
+  "visionOS",
+  "tvOS",
+  "watchOS",
+] as const;
 
 /**
  * This structure in contrast to Adele in purpose does not include too many fields.
