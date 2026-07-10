@@ -336,20 +336,6 @@ const lonelyPlanet: CompanyData = {
   systemName: "rizzo",
 };
 
-const cloudflare: CompanyData = {
-  name: "cloudflare",
-  designTokens: undefined,
-  logo: "https://logo.clearbit.com/cloudflare.com",
-  figmaKit: undefined,
-  brandGuidelines: undefined,
-  voiceAndTone: undefined,
-  storybook: undefined,
-  codeDocumentation:
-    "https://github.com/cloudflare/cf-ui/blob/master/packages/cf-component-dropdown/README.md",
-  codeRepository: "https://github.com/cloudflare/cf-ui",
-  systemName: "cf-ui",
-};
-
 const morningstar: CompanyData = {
   name: "morningstar",
   designTokens: true,
@@ -1921,13 +1907,24 @@ const orange: CompanyData = {
   name: "Orange",
   designTokens: true,
   logo: "https://logo.clearbit.com/orange.com",
-  figmaKit: "https://www.figma.com/files/1152163066756235821/workspace/1309786122098727344/directory/teams",
+  figmaKit:
+    "https://www.figma.com/files/1152163066756235821/workspace/1309786122098727344/directory/teams",
   brandGuidelines: "https://brand.orange.com/en",
   voiceAndTone: undefined,
   storybook: undefined,
   codeDocumentation: "https://unified-design-system.orange.com",
-  codeRepository: "https://github.com/Orange-OpenSource?q=ouds-&type=all&language=&sort=",
-  devices: ["Web", "Android", "iOS", "iPadOS", "macOS", "visionOS", "tvOS", "watchOS"],
+  codeRepository:
+    "https://github.com/Orange-OpenSource?q=ouds-&type=all&language=&sort=",
+  devices: [
+    "Web",
+    "Android",
+    "iOS",
+    "iPadOS",
+    "macOS",
+    "visionOS",
+    "tvOS",
+    "watchOS",
+  ],
   systemName: "Orange Unified Design System",
   multiBrand: true,
 };
@@ -2212,6 +2209,35 @@ const itzBund: CompanyData = {
   devices: ["Web"],
 };
 
+const meta: CompanyData = {
+  name: "Meta",
+  designTokens: true,
+  logo: "https://logo.clearbit.com/meta.com",
+  figmaKit: undefined,
+  brandGuidelines: undefined,
+  voiceAndTone: undefined,
+  storybook: undefined,
+  codeDocumentation: "https://astryx.atmeta.com/",
+  codeRepository: "https://github.com/facebook/astryx",
+  systemName: "Astryx",
+  devices: ["Web"],
+  multiBrand: true,
+};
+
+const cloudflareKumo: CompanyData = {
+  name: "cloudflare",
+  designTokens: true,
+  logo: "https://logo.clearbit.com/cloudflare.com",
+  figmaKit: "https://kumo-ui.com/figma/",
+  brandGuidelines: undefined,
+  voiceAndTone: undefined,
+  storybook: undefined,
+  codeDocumentation: "https://kumo-ui.com/",
+  codeRepository: "https://github.com/cloudflare/kumo",
+  systemName: "Kumo",
+  devices: ["Web"],
+};
+
 export const systems = [
   clickhouse,
   wix,
@@ -2265,7 +2291,6 @@ export const systems = [
   heroku,
   bbc,
   lonelyPlanet,
-  cloudflare,
   morningstar,
   automattic,
   nationalInstruments,
@@ -2374,4 +2399,6 @@ export const systems = [
   newYorkState,
   pandaDoc,
   itzBund,
+  meta,
+  cloudflareKumo,
 ] as CompanyData[];
