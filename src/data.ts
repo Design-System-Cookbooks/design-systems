@@ -2238,6 +2238,20 @@ const cloudflareKumo: CompanyData = {
   devices: ["Web"],
 };
 
+const janeStreet: CompanyData = {
+  name: "Jane Street",
+  designTokens: true,
+  logo: "https://avatars.githubusercontent.com/u/3384712?s=200&v=4",
+  figmaKit: undefined,
+  brandGuidelines: undefined,
+  voiceAndTone: undefined,
+  storybook: undefined,
+  codeDocumentation: "https://bonsai.red/",
+  codeRepository: "https://github.com/janestreet/bonsai",
+  systemName: "Bonsai",
+  devices: ["Web"],
+};
+
 export const systems = [
   clickhouse,
   wix,
@@ -2401,4 +2415,5 @@ export const systems = [
   itzBund,
   meta,
   cloudflareKumo,
+  janeStreet,
 ] as CompanyData[];
