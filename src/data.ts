@@ -2252,6 +2252,21 @@ const janeStreet: CompanyData = {
   devices: ["Web"],
 };
 
+const trayUi: CompanyData = {
+  name: "Tray UI",
+  designTokens: true,
+  logo:
+    "https://raw.githubusercontent.com/VladislavKorzh/trayui/v0.4.1/trayui-logo.png",
+  figmaKit: undefined,
+  brandGuidelines: "https://trayui.com/docs/brand-book",
+  voiceAndTone: undefined,
+  storybook: undefined,
+  codeDocumentation: "https://trayui.com/docs",
+  codeRepository: "https://github.com/VladislavKorzh/trayui",
+  systemName: "Tray UI",
+  devices: ["Web"],
+};
+
 export const systems = [
   clickhouse,
   wix,
@@ -2416,4 +2431,5 @@ export const systems = [
   meta,
   cloudflareKumo,
   janeStreet,
+  trayUi,
 ] as CompanyData[];
